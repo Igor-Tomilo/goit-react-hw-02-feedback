@@ -1,0 +1,26 @@
+body {
+  font-style: italic;
+  color: blanchedalmond;
+  background-image: url(https://i.pinimg.com/originals/6d/32/b9/6d32b9c7ccd7faed1684039efddf25e5.jpg);
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  margin: auto;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+}

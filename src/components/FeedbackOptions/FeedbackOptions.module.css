@@ -1,0 +1,22 @@
+.feedback__controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feedback__button {
+  padding: 10px 20px;
+  width: 100px;
+  border: 1px solid chocolate;
+  border-radius: 6px;
+  font-weight: 700;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 10px 5px lightyellow;
+  transition: all 250ms ease-in;
+}
+
+.feedback__button:hover {
+  cursor: pointer;
+  background-color: chocolate;
+  color: blanchedalmond;
+}
